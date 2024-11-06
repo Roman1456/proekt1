@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('Space_Corrected.csv')
+df = pd.read_csv('Space_Corrected (1).csv')
 
-df.info()
+print(df['Rocket'].max())
